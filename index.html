@@ -1,0 +1,106 @@
+<!-- intellisense kod  yazarken otomatik tamamlama-->
+<!-- emmet birden fazla yazacağımız satırları tek seferde yazma örneğin div>ul>li*10 
+ yazınca 10 tane yazıyor-->
+
+<div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<!-- Html bir sayfa için gerekli iskelet, aşağıdaki tuş kombinasyonu ile oluşturur. ! + Tab -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!-- İlgili element’e “#” ile id tanımlaması, “.” ile css tanımlaması yapılır. Örnek kullanımları aşağıdaki gibidir.
+
+1-) div#emmetdiv
+
+2-) div.table.tbl_funcy-->
+
+<!-- daha fazlası https://www.borakasmer.com/emmet-nedir/-->
+
+<!--Terminal Özellikleri-->
+<!--pwd komutu hangi klasör içinde olduğunu verir
+Windows tabanlı sistemlerde terminale pwd yerine echo %cd% komutunu yazabilirsiniz.
+mkdir komutu yeni bir dosya oluşturmak için kullanılır
+ls komutu olan dosyaları listeler
+cd komutundan sonra dizin ismi yazınca o dizinin içine gireriz 
+şu anki dizinin adı . bir üst doyanın adı . . dır
+Cmd de test klasörü açıp içine girip code . Dersek test projesini vsc de açar
+
+İleride işletim sistemleri arasında bir geçiş yapmak istediğinizde dosya yollarını ayırmak için windows'un \ ters slash kullandığını ve Linux/macOS ikilisinin ise / düz slash kullandığını unutmayın!
+-->
+
+<!--MultiCursor (Çoklu İmleç) Özellikleri
+birden fazla satırda bir şeyi değiştirmek istediğimde kullanılır örneğin her cümlenin başına veya sonuna bir şey eklemek istiyorum.
+ul>li*10>lorem3 bunu yazarak bu satırları elde ettim
+Değiştirmek istediğim yerlerden birini seçip alt tuşuna basarak diğerlerini de seçiyorum.
+escape ile kapatıyoruz
+alt + shift ve fare ile hepsini seçebiliyoruz.-->
+<!--Visual Studio Code içerisinde bir satırda seçmiş olduğunuz ifade diğer 
+satırlarda da tekrarlanıyorsa kod editörü onları bulur ve sizin 
+görebileceğiniz hale getirir. Çoklu imleç özelliği de aynı ifadeleri 
+CTRL + D kombinasyonuyla seçebilmenizi ve tek seferde değiştirebilmenizi sağlar.-->
+<ul>
+    <li>Lorem, ipsum dolor.</li>
+    <li>Dolorem, officia quae?</li>
+    <li>Perferendis, architecto iure.</li>
+    <li>Modi, quaerat ipsa.</li>
+    <li>Tempore, adipisci Modi doloribus!</li>
+    <li>Aliquid, enim non.</li>
+    <li>Officiis, reiciendis quisquam?</li>
+    <li>Quasi, consequatur iure!</li>
+    <li>Perferendis, quasi eum.</li>
+    <li>Perferendis, pariatur ab.</li>
+</ul>
+
+
+<!--Klavye kısayolları
+ctrl + p kombinasyonunu kullandığınızda açılan menüden projenizdeki dosyaları açabilirsiniz.
+Halihazırda açık olan dosyayı kapatmak için CTRL + W kombinasyonunu kullanabilirsiniz.
+CTRL + B klavye kısayolunu kullanarak kod editörünüz sol tarafında açık olan menü çubuğunu kapatıp açabilirsiniz.
+CTRL + Alt + B klavye kısayolunu kullanarak kod editörünüz sağ tarafında açık olan menü çubuğunu kapatıp açabilirsiniz.
+CTRL + SHIFT + P klavye kısayolunu kullanarak ayarlara ulaşabilirsiniz.
+Bir ifadenin tamamını seçmek istediğinizde o ifadenin sonuna gelerek CTRL + SHIFT + SOL YÖN TUŞU kombinasyonunu kullanabilirsiniz.
+Bir ifadenin yerini değiştirmek istediğinizde ALT + YUKARI/AŞAĞI YÖN TUŞU kombinasyonunu kullanabilirsiniz
+Seçili olan ifadeyi bir alt satıra da kopyalamak istediğinizde ALT + SHIFT kısayolunu kullanabilirsiniz.
+Satırın neresinde olursanız olun bir alt satıra geçmek istediğinizde CTRL + ENTER kısayolunu kullanabilirsiniz.
+Dosyanızda yer alan aynı ifadeleri seçmek için CTRL + D kısayolunu kullanabilir sonrasında da çoklu imleç özelliğinden yararlanarak aynı ifadeleri tek seferde değiştirebilirsiniz.
+Satırdaki ifadeleri teker teker atlayarak ilerlemek istediğinizde CTRL + SOL/SAĞ YÖN TUŞU kısayolunu kullanabilirsiniz.
+Seçili olan ifadeyi kopyalamak için CTRL + C kısayolunu kullanabilirsiniz.
+Halihazırda kopyalanan ifadeyi yapıştırmak için CTRL + V kısayolunu kullanabilirsiniz.
+Seçili olan ifadeyi kesmek için CTRL + X kısayolunu kullanabilirsiniz.
+-->
+
+<!--Snippets Kullanımı
+Bu örneğimizde, ilk olarak projemizde <h1>Kodluyoruz</h1> ifadesini sık sık kullanmamız gerektiğini varsayalım. Snippets ile biz bu ifadeyi k1 gibi daha kısa bir ifadeyi yazıp Tab tuşuna basarak yazabiliriz. Böylece sık kullandığımız uzun bir ifadeyi tekrar tekrar yazmak yerine kısa bir ifadeyle istediğimiz şeyi yapabilir ve zamandan tasarruf sağlayabiliriz Peki "k1" ifadesi nereden geldi?
+Yeni bir snippets eklemek için ilk öncelikle CTRL + SHIFT + P kısa yolunu kullanmalı ve yukarıda açılan menüden "snippets" ifadesini aratmalıyız. Karşımıza çıkan sonuçlardan Preferences: Configure User Snippets ifadesine tıklayarak giriş yapmalıyız. Sonrasında menüde çıkan yazılım dillerinden çalışmak istediğimiz yazılım dilini seçmeliyiz. Son olarak yazılım dilini seçtikten sonra bu dilde nasıl yeni bir snippets ekleyeceğimiz ile ilgili örneklerle karşılaşacağız.
+
+Yukarıdaki örnekte yer alan yolu takip ettiğimizde karşımıza aşağıdaki görüntünün çıktığını görebiliriz.
+
+-->
+<h1>Kodluyoruz</h1>
+<h1>Kodluyoruz</h1>
+<!-- deneme -->
+
+fgdf
