@@ -20,5 +20,5 @@ Root 7'dir, sağında 8 solunda 5 bulunur.
    /
   1
  /
-0 
+0
 
